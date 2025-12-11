@@ -1,6 +1,6 @@
 <template>
   <button
-    :class="`mt-4 px-4 py-3 rounded-lg min-w-32 text-sm font-medium ${bgColor} ${textColor} hover:${hoverColor}`"
+    :class="`mt-4 px-4 py-3 rounded-lg min-w-24 md:min-w-32 sm:text-xs md:text-sm font-medium ${bgColor} ${textColor} hover:${hoverColor}`"
     :style="{ width: width }"
   >
     {{ text }}
