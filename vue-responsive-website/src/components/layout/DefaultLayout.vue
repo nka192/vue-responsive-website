@@ -4,7 +4,7 @@
     <PageHeader />
 
     <!-- Main Content -->
-    <main class="flex-grow">
+    <main class="grow">
       <router-view></router-view>
     </main>
 
