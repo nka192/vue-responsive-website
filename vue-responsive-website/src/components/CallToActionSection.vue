@@ -2,7 +2,7 @@
   <div class="relative w-full h-96 flex items-center">
     <div class="absolute inset-0">
       <img
-        src="../../assets/images/bg_3.jpg"
+        src="../assets/images/bg_3.jpg"
         alt="Call To Action Background Image"
         class="w-full h-full object-cover object-top"
       />
@@ -21,7 +21,7 @@
 </template>
 
 <script setup>
-import ButtonComponent from "../ButtonComponent.vue";
+import ButtonComponent from "./ButtonComponent.vue";
 </script>
 
 <style>

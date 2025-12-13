@@ -28,7 +28,7 @@
 
 <script setup>
 import { ref } from "vue";
-import SectionHeading from "../SectionHeading.vue";
+import SectionHeading from "./SectionHeading.vue";
 import { AkHeart, IcCity, MaAirport } from "@kalimahapps/vue-icons";
 
 const events = ref([

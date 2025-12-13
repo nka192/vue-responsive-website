@@ -5,7 +5,7 @@
     >
       <div class="sm:absolute -inset-x-1/3 inset-y-20 mb-4 md:mb-0">
         <img
-          src="../../assets/images/about.jpg"
+          src="../assets/images/about.jpg"
           alt="About Us Section Image"
           class="md:max-w-lg h-auto object-cover"
         />
@@ -38,7 +38,7 @@
 </template>
 
 <script setup>
-import ButtonComponent from "../ButtonComponent.vue";
+import ButtonComponent from "./ButtonComponent.vue";
 </script>
 
 <style></style>
