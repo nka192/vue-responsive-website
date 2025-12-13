@@ -16,7 +16,7 @@
 
 <script setup>
 import BgContainer from "../components/BgContainer.vue";
-import AboutUsSection from "../components/home/AboutUsSection.vue";
+import AboutUsSection from "../components/AboutUsSection.vue";
 import TestimonySection from "../components/home/TestimonySection.vue";
 import StatisticsSection from "../components/home/StatisticsSection.vue";
 </script>
