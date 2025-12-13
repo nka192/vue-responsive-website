@@ -7,6 +7,7 @@
     <CallToActionSection />
     <TestimonySection />
     <BlogSection />
+    <StatisticsSection />
   </main>
 </template>
 
@@ -18,6 +19,7 @@ import ServiceListSection from "../components/home/ServiceListSection.vue";
 import CallToActionSection from "../components/home/CallToActionSection.vue";
 import TestimonySection from "../components/home/TestimonySection.vue";
 import BlogSection from "../components/home/BlogSection.vue";
+import StatisticsSection from "../components/home/StatisticsSection.vue";
 </script>
 
 <style></style>
