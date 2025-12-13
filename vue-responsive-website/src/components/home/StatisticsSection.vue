@@ -7,12 +7,14 @@
       v-for="(item, index) in stats"
       :key="index"
       :class="[
-        'p-6 h-36 w-full md:h-72 md:w-1/4 flex items-center md:justify-center gap-4',
+        'p-6 h-36 w-full md:h-72 md:w-1/4 flex sm:flex-col lg:flex-row items-center md:justify-center gap-4',
         index === 0 ? 'bg-blue-300/90' : 'bg-gray-100/60',
       ]"
     >
-      <h1 class="text-5xl font-light text-blue-500">{{ item.count }}</h1>
-      <p class="text-lg w-10 mr-20 text-gray-900 leading-tight">
+      <h1 class="text-5xl font-light text-blue-500">
+        {{ item.count }}
+      </h1>
+      <p class="text-lg w-10 mr-15 text-gray-900 leading-tight">
         {{ item.label }}
       </p>
     </div>
@@ -24,7 +26,7 @@ import { onMounted, ref } from "vue";
 
 const stats = ref([
   { to: 60, label: "Years Experienced", count: 0 },
-  { to: 1090, label: "Total Cars", count: 0 },
+  { to: 990, label: "Total Cars", count: 0 },
   { to: 2590, label: "Happy Customers", count: 0 },
   { to: 67, label: "Total Branches", count: 0 },
 ]);
