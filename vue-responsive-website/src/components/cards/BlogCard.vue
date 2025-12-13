@@ -3,7 +3,7 @@
     <img
       :src="getImage(image)"
       alt="Blog Post Image"
-      class="object-cover h-56 w-full"
+      :class="['object-cover h-56 w-full', imageHeight]"
     />
     <div class="space-y-2 pt-5">
       <p class="text-sm text-blue-500">
@@ -26,6 +26,7 @@ defineProps({
   title: String,
   description: String,
   image: String,
+  imageHeight: { type: String, default: "h-56" },
 });
 
 const getImage = (imageName) => {
